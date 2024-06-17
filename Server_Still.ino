@@ -13,14 +13,14 @@ String getLoggedDataAsTable();
 void updateOLED();
 
 
-const char* ssid = "notyournetwork"; // Enter your SSID
-const char* password = "Jailbreak"; // PAssword
+const char* ssid = "SSID"; // Enter your SSID
+const char* password = "WIFI Password"; // Password
 
 
 // Your client needs to know where to send the data so a Static IP is needed. 
 
-IPAddress staticIP(192, 168, 2, 190); // Static IP address configuration
-IPAddress gateway(192, 168, 2, 1);    // Gateway IP address
+IPAddress staticIP(192, 168, 1, 190); // Static IP address configuration
+IPAddress gateway(192, 168, 1, 1);    // Gateway IP address
 IPAddress subnet(255, 255, 255, 0);   // Subnet mask
 
 ESP8266WebServer server(80); // Starts webserver on port 80
@@ -30,7 +30,7 @@ Adafruit_SSD1306 display(OLED_RESET);
 
 unsigned long lastLogTime = 0;
 unsigned long startTimeMillis = 0;
-const unsigned long logInterval = 120000; // 120 seconds in milliseconds
+const unsigned long logInterval = 120000; // Interval for how often Temp data is logged to file, default 2 minutes
 
 // Global variables to hold sensor data
 String sensor1Value = "69"; // Initial value to simulate data
