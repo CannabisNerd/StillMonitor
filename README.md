@@ -1,4 +1,4 @@
-# StillMonitor - Disstilation Monitoring System
+# StillMonitor - Distillation Monitoring System
 
 ## Overview
 
