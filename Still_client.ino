@@ -2,12 +2,12 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-// WiFi credentials
-const char* ssid = "notyournetwork";
-const char* password = "Jailbreak";
+// WiFi credentials change to yours
+const char* ssid = "SSID"; 
+const char* password = "WIFI Password";
 
 // Server details
-const char* serverAddress = "192.168.2.190";  // IP address of your server
+const char* serverAddress = "192.168.2.190";  // IP address of your server as set in Still_Server
 const int serverPort = 80;  // Port number of your server
 
 // Data wire is connected to D5
