@@ -1,5 +1,4 @@
-# StillMonitor
-# Project Tutorial: Temperature Monitoring and Logging System
+# StillMonitor - Disstilation Monitoring System
 
 ## Overview
 
